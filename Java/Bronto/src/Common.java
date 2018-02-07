@@ -5,6 +5,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Common {
     public static WebDriver driver;
+
     private String url = "https://www.mortgageloan.com/calculator";
 
     private String input_LoanAmount =  ".//*[@id='calculator_widget_amount']";
@@ -26,6 +27,7 @@ public class Common {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element)));
     }
+
     public void click(String element) {
         wait(element);
         driver.findElement(By.xpath(element)).click();
