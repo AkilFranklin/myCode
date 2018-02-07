@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- add at the project level -->
+<suite name="Automation Test">
+	<test name = "Smoke Test">
+	<packages>
+
+		<package name = "datadriven" />
+		<package name = "TestingFiles" /> 
+
+	</packages>
+	</test>
+
+</suite>

@@ -1,0 +1,6 @@
+Build a program that:
+
+- Reads in user info
+- reads in permissions from a json file
+- Creates a new user with assigned permissions
+- saves the user in a new users listing file. if file doesnt exist, create it

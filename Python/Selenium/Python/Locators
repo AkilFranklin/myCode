@@ -1,0 +1,24 @@
+Locators
+
+locating by number of element
+  (//a)[1]
+  (//div)[3]
+
+ by text
+  //span[contains(text(),'Photo')]
+  //span[contains(text(),'googl')]
+
+locating using part of the locator
+useful for when elements change all the time
+
+input[starts-with(@id='Aki_')]
+input[contains(@id='Form_')]
+- in the above case, Form_ is followed by a randomly generated string
+- this will come in useful with the elements at MercuryGate
+
+
+Multiple attributes
+
+//a[@id=’id1’][@name=’namevalue1’]
+
+

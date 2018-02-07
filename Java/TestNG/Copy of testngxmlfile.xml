@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- add at the project level -->
+<suite name="Automation Test">
+	<test name = "Smoke Test">
+	<classes>
+		<class name = "TestingFiles.Annotations2" />
+		<class name = "TestingFiles.Annotations" />
+	</classes>
+	</test>
+
+</suite>
